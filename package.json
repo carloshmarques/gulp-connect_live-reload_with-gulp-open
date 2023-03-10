@@ -1,0 +1,32 @@
+{
+  "name": "gulp-connect_live-reload_with-gulp-open",
+  "version": "1.0.0",
+  "description": "Codeset for Gulpifile.js template, to handle the web server issue with \"gulp-connect\", and the \"connect\" function or task, when triggered, as it does not open the default browser on localhost.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/carloshmarques/gulp-connect_live-reload_with-gulp-open.git"
+  },
+  "keywords": [
+    "Gulp",
+    "livereload",
+    "gulp-connect",
+    "gulp-open",
+    "webserver",
+    "error"
+  ],
+  "author": "Hydra Projects",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloshmarques/gulp-connect_live-reload_with-gulp-open/issues"
+  },
+  "homepage": "https://github.com/carloshmarques/gulp-connect_live-reload_with-gulp-open#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-open": "^3.0.1"
+  }
+}
