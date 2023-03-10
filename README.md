@@ -1,0 +1,5 @@
+# connect_live-reload_with-gulp-open
+Codeset for Gulpifile.js template, to handle the web server issue with "gulp-connect", and the "connect" function or task, when triggered, as it does not open the default browser on localhost.
+
+While I was developing another project, where I was using the gulp-connect plugin, I came across a problem, as it is obsolete and does not open in the default browser anymore, with the role or task of the web server at http: //localhost: 8080 , this project is an attempt to solve this problem, after many attempts, by trial and error, I came across the gulp-open plugin and finally solved it by adding it to gulpfile.js...See gulpfile.js code for more information .
+You can also find the project I was working on before this project at: https://github.com/carloshmarques/frontend-workflow-with-gulp-jade---livereload.
